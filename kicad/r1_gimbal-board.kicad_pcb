@@ -1,7 +1,7 @@
 (kicad_pcb (version 4) (host pcbnew 0.201602181416+6564~42~ubuntu15.04.1-product)
 
   (general
-    (links 84)
+    (links 83)
     (no_connects 0)
     (area 99.892427 23.8745 181.627381 71.97626)
     (thickness 1.6)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.25)
+    (last_trace_width 0.5)
     (user_trace_width 0.5)
     (user_trace_width 0.75)
     (user_trace_width 1)
@@ -381,7 +381,7 @@
     (tags "capacitor 0805")
     (path /564B00F4)
     (attr smd)
-    (fp_text reference C10 (at 3.352527 -0.167363 180) (layer F.SilkS)
+    (fp_text reference C10 (at 0 -2.1 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 0.1uF (at 0 2.1 90) (layer F.Fab)
@@ -837,7 +837,7 @@
     (tags "resistor 0805")
     (path /564AFFEA)
     (attr smd)
-    (fp_text reference R2 (at 3.352527 0.232637 180) (layer F.SilkS)
+    (fp_text reference R2 (at 0 -2.1 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 10K (at 0 2.1 90) (layer F.Fab)
